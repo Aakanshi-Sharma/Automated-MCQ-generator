@@ -1,0 +1,4 @@
+1) Summarize 
+2) keyword extraction
+3) distractor generation(generating false choices)
+4) question generation
