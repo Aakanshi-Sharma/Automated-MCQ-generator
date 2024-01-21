@@ -5,7 +5,7 @@ import os
 
 
 # ---------------IMPORT PICKLE FILES------------
-file_path = os.path.abspath("summarization.pkl")
+file_path = os.path.abspath("get_summaries.pkl")
 summarization = pickle.load(open(file_path, "rb"))
 extraction = pickle.load((open("extraction.pkl", "rb")))
 tokenize_sentence = pickle.load(open("tokenize_sentences.pkl", "rb"))
